@@ -101,11 +101,12 @@ if __name__=='__main__':
    K = M
    plot_main(t, h, m, k, M, K, name)
 
-   t = np.linspace(0, 20)
+
    M=13
    K=5
    name='1mMOREk'
    plot_damper(t,h,m,k,M,K,name)
+   t = np.linspace(0, 20)
    name='1mLESSk'
    k=11
    plot_damper(t,h,m,k,M,K,name)
